@@ -11,6 +11,6 @@ It is not intended for commercial exploitation without the explicit permission o
 © Andrew Bruce 2026
 Licensed under CC BY-NC-SA 4.0
 Commercial use is not permitted.
-Citation / attribution
+**Citation / attribution**
 If you reference or build on this work, please attribute:
-[Andrew Bruce], “[DrAmblyo]”, GitHub repository link
+[Andrew Bruce], “[DrAmblyo]”, [GitHub repository link](https://github.com/AndrewB1138/DrAmbylo)
