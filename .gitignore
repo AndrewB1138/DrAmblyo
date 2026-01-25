@@ -1,0 +1,29 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.booproj
+*.svd
+
+# OS
+.DS_Store
+
+# Oculus / XR caches
+Assets/Oculus/**/Plugins/Android/*.aar
+Assets/Oculus/**/Plugins/Android/*.jar
+
+git rm -r --cached .
+git add .
+git commit -m "Add Unity .gitignore"
