@@ -1,0 +1,97 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 # Build and Run\
+\
+## Requirements\
+\
+- Unity 6000\
+- Meta Quest headset (for VR testing)\
+- Oculus / XR plugins configured\
+\
+---\
+\
+## Opening the project\
+\
+1. Open Unity Hub\
+2. Add the project folder\
+3. Open with the correct Unity version\
+4. Allow packages to resolve\
+\
+---\
+\
+## Running in editor\
+\
+1. Open the main scene\
+2. Press Play\
+\
+Note:\
+- Some VR-specific features may not behave fully in editor\
+- Input may need to be simulated\
+\
+---\
+\
+## Running on Quest\
+\
+1. Connect headset via USB or Air Link\
+2. Switch platform to Android (if not already)\
+3. Build and Run\
+\
+---\
+\
+## Input setup\
+\
+The project uses:\
+- Unity Input System\
+- XR controller bindings\
+- Oculus controller compatibility\
+\
+If input is not working:\
+- check Input System package is enabled\
+- verify XR bindings\
+- confirm controller mappings\
+\
+---\
+\
+## Layers\
+\
+A custom layer is used:\
+\
+- `LeftOnly`\
+\
+This is required for:\
+- ghost blocks\
+- weak-eye-only rendering\
+\
+Make sure it exists in:\
+Project Settings \uc0\u8594  Tags and Layers\
+\
+---\
+\
+## Common issues\
+\
+### Nothing visible / UI misplaced\
+- Check scene scale and object transforms\
+- Ensure StartScreenRoot is positioned correctly\
+\
+### Input not responding\
+- Confirm actions are enabled\
+- Check XR bindings\
+- Ensure headset focus\
+\
+### Game freezes at top\
+- This should now trigger Game Over (if not, check spawn logic)\
+\
+---\
+\
+## Notes\
+\
+This is a prototype project.\
+Expect:\
+- rapid iteration\
+- occasional rough edges\
+- systems evolving over time}
