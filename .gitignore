@@ -6,6 +6,7 @@
 [Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
+UserSettings/
 
 # Visual Studio / Rider
 .vs/
@@ -17,8 +18,12 @@
 *.booproj
 *.svd
 
+
 # OS
 .DS_Store
+
+*.apk
+*.unitypackage
 
 # Oculus / XR caches
 Assets/Oculus/**/Plugins/Android/*.aar
